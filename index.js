@@ -3,7 +3,7 @@ import { getDatabase, ref, push, get } from "https://www.gstatic.com/firebasejs/
 
 // Firebase configuration
 const firebaseConfig = {
-  databaseURL: https://compliment-generator-6548d-default-rtdb.asia-southeast1.firebasedatabase.app/
+  databaseURL: "https://compliment-generator-6548d-default-rtdb.asia-southeast1.firebasedatabase.app/"
 }
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
